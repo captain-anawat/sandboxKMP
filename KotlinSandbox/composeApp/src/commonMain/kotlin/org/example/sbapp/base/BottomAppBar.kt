@@ -14,7 +14,6 @@ import androidx.compose.ui.unit.dp
 fun BottomAppBar() {
 
     BottomAppBar(
-        modifier = Modifier.height(56.dp),
         containerColor = MaterialTheme.colorScheme.primary,
         contentColor = MaterialTheme.colorScheme.onPrimary,
         actions = {
