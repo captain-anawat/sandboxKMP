@@ -29,8 +29,11 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.activity.compose)
+            implementation(libs.ml.kit)
         }
         commonMain.dependencies {
+            implementation(libs.io.ktor)
+            implementation(libs.io.ktor.optional)
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
